@@ -11,7 +11,7 @@ let isAdmin: boolean = true;
 
 
 // undefined
-let userInfo: undefined = undefined
+let userInformation: undefined = undefined
 
 //null 
 
