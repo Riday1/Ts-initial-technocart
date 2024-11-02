@@ -67,6 +67,17 @@
     }
 
 
+    // Type alias for function
+
+    type Add = (num1: number, num2: number) => number
+    type Multiply = (num1: number, num2: number) => number
+    type SubTract = (num1: number, num2: number) => number
+
+    const subtraction: SubTract = (num1, num2) => num1 - num2
+    const multiply: Multiply = (num1, num2) => num1 * num2
+    const add: Add = (num1, num2) => num1 + num2
+
+
 
 
 }
